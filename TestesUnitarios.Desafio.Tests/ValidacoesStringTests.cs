@@ -10,8 +10,8 @@ public class ValidacoesStringTests
     public void DeveRetornar6QuantidadeCaracteresDaPalavraMatrix()
     {
         // Arrange
-        var texto = "carro";
-        var resultadoEsperado = 5;
+        var texto = "Matrix";
+        var resultadoEsperado = 6;
 
         // Act
         var resultado = _validacoes.RetornarQuantidadeCaracteres(texto);
